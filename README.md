@@ -15,4 +15,7 @@ find the similarity between Movies, and similarity between Users for diffrent Ap
 
 
 # Model Based
+using the Suprise library, first build oure dataset 
+then we use knn and svd models for training
+we then can use predict function to get users score to movie
 
