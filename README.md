@@ -5,17 +5,12 @@ a Basic movie Recommendation System, Using Both Content Based and Collaborative 
 
 click [here](https://www.kaggle.com/shubhammehta21/movie-lens-small-latest-dataset?select=movies.csv) to download.
 
-# Memory Based
+
 #### Content Based :
-we first find the cosine similarity between movies for each User, then use thist similarity Table to recommend Movie to each user
-
-#### Collaborative :
-create the user_movive table
-find the similarity between Movies, and similarity between Users for diffrent Approches
+we first find the cosine similarity between movies, then use this similarity Table to recommend Movies
 
 
-# Model Based
-using the Suprise library, first build oure dataset 
-then we use knn and svd models for training
-we then can use predict function to get users score to movie
+
+# Collaborative
+using item to item approach and knn classifier
 
